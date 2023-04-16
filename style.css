@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin: 0%;
+}
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.green{
+    color: darkgreen;
+    margin-left: 1%;
+}
+.flex-container1{
+    display: flex;
+    flex: 100%;
+    background-image: url(https://www.masa.co.il/wp-content/uploads/2016/02/eb18b0bb70d201e690e85805ed967821_triglav.jpg
+    );
+    background-size: cover;
+    justify-content: space-between;
+}
+.container-l{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 45%;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center; 
+    text-align: center;
+}
+.container-r{
+    display: flex;
+    flex:30%;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 3%;
+}
+.insid{
+    margin-top: 1%;
+}
+#bt{
+    background-color: greenyellow;
+    color: aliceblue;
+    width: 32.5%;
+}
+.in{
+    background-color: black;
+    color: aliceblue;
+    width: 50%;
+    
+}
+.learn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-container2{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    /* justify-content:space-between; */
+    flex-direction: row;
+    align-items: center;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.l{
+    display: flex;
+    flex-direction: column;
+    flex: 33.33%;
+    text-align: center;
+    align-items: center;
+}
+.flex-container3{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.p{
+    width: 70%;
+}
+.flex-container4{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.r4{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    text-align: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.footer{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+#l{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    flex: 40%;
+    align-items: start;
+
+}
+#r{
+    flex: 40%;
+    text-align: right;
+}
+@media only screen and (max-width: 600px) {
+    div{
+        flex-direction: column;
+        margin: 0.5%;
+    }
+    .header{
+        align-items: center;
+    }
+    .flex-container2{
+        flex-direction: column;
+    }
+    #bt{
+        width: 46%;
+    }
+}
